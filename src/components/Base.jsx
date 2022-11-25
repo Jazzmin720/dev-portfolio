@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/base.css';
-import { BiCodeAlt } from "react-icons/";
+import { BsCodeSquare } from "react-icons/bs";
 
 class Base extends React.Component {
     render(){
@@ -9,7 +9,7 @@ class Base extends React.Component {
                 <div className="container">
                     <div className= "hero-content">
                         <div className="code-icon">
-                            <BiCodeAlt />
+                            <BsCodeSquare />
                         </div>
                         <h2 className="header-lg">Eat.Code.Sleep</h2>
                         <div className="sub-header">
